@@ -22,3 +22,4 @@ Example:
 
 * When the private key is protected strong-named open source libraries can define the "official release" vs. a "private build". - robmen
   * I know this does go against the note above but thought I'd get it captured. - robmen
+    * Since strong-named assemblies are almost never validated in .Net 3.5, it's not that reliable an indictor. Also, making it easy for downstream users to try out (or use) modified assemblies in programs really fits the open source ethos better. I strongly recommend the use of code-signing to designate assemblies as official since it has no effect on binding. - ericschultz
