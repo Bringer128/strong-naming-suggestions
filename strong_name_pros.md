@@ -16,3 +16,9 @@ Example:
 
 --------------------------------
 * Strong-named open source libraries can be used by other strong-named libraries and applications. - ericschultz
+  * This is the scenario that drives most libraries to being strong-named. - robmen
+
+* Rumor has it that GAC'd assemblies load faster and only strong-named libraries can be GAC'd. - robmen
+
+* When the private key is protected strong-named open source libraries can define the "official release" vs. a "private build". - robmen
+  * I know this does go against the note above but thought I'd get it captured. - robmen
